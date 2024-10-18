@@ -1,4 +1,5 @@
-**Click to check website live** :  https://calculator-shubham6m.netlify.app/
+**Click to check website live** :  https://shubham6m-calculator.netlify.app
+**Old version** : https://calculator-shubham6m.netlify.app
 
 **React Calculator**
 
