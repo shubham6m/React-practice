@@ -7,11 +7,14 @@ import { useState } from "react";
 function App() {
   let [calVal, setcalVal] = useState("");
   const onButtonClick = (buttonText) => {
-    if (buttonText === "C") {
+    if (buttonText === "AC") {
       setcalVal("");
     } else if (buttonText === "=") {
       const result = eval(calVal);
       setcalVal(result);
+    } else if (buttonText === "del") {
+      const temp = calVal.slice(0, calVal.length - 1);
+      setcalVal(temp);
     } else {
       const newDisplayValue = calVal + buttonText;
       setcalVal(newDisplayValue);

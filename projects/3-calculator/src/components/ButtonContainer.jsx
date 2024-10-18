@@ -1,23 +1,23 @@
 import styles from "./ButtonContainer.module.css";
 const ButtonContainer = ({ onButtonClick }) => {
   const buttonNames = [
-    "C",
+    "AC",
+    "del",
+    ".",
+    "+",
     "1",
     "2",
-    "+",
     "3",
-    "4",
     "-",
+    "4",
     "5",
     "6",
     "*",
     "7",
     "8",
+    "9",
     "/",
     "=",
-    "9",
-    "0",
-    ".",
   ];
   return (
     <>
